@@ -64,7 +64,7 @@ Library(){
     cout << "Book not found." << endl;
   }
 
-  void removebook(int id)
+  void removebook(int id) //remove funcn
   {
     for (auto it = Books.begin(); it != Books.end(); ++it)
     {
